@@ -13,7 +13,6 @@
 ## Project Image
 ![square-image](https://github.com/user-attachments/assets/c8c2f484-54c3-42bb-b61a-ed06a894aa9f)
 
-
 ---
 
 ## Project Description
@@ -43,4 +42,4 @@ Optional notes:
 
 ## Video Demo
 ▶️ **Full Demo Video:**  
-[Link to YouTube / Drive / GitHub Release]
+https://www.youtube.com/watch?v=GOwJP6qtDTw
