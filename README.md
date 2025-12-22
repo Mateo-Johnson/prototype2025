@@ -1,4 +1,4 @@
-# SpoonBob - A robot that plays Spoons the card came
+# SpoonBob - A robot that plays Spoons!
 
 ## Team Information
 **Team Name: JJJK**  
@@ -16,7 +16,7 @@
 ---
 
 ## Project Description
-This is a robot meant to play the card game spoons. This robot was created to play singleplayer or multiplayer, taking cards from a draw "pile", comparing them to its stored hand and choosing to keep/discard them. The robot has a temporary storage for cards being transferred to hand, and uses OpenCV for various forms of card detection and classification. The code is meant to be fully modular, using different pipeline configurations of neural networks and presets for smooth operation.
+The robot combines human-like physical motion with AI-driven decision-making. Left in charge of managing a fast-paced matching-based card game, the system uses OpenCV for neural network-based card classification to identify, track, and evaluate cards as they are played, running a strategy analysis after every move. The system is fully modular, allowing vision models, strategies, and motion constraints to be updated independently. With motion constraints derived from human movement benchmarks and a state-driven decision framework, the robot reacts dynamically to human players and changing game conditions. This project highlights AMD hardware’s strength for real-time workloads that demand reliability and scalable performance.
 
 ---
 
