@@ -1,0 +1,62 @@
+INFO 2025-12-21 06:42:39 db_utils.py:102 [1m[34mLogs will be synced with wandb.[0m
+INFO 2025-12-21 06:42:39 db_utils.py:103 Track this run --> [1m[33mhttps://wandb.ai/kaushik-duddala-964-n-a/lerobot/runs/958tcmsd[0m
+INFO 2025-12-21 06:42:39 ot_train.py:183 Creating dataset
+info.json: 3.86kB [00:00, 10.7MB/s]                       | 0/4 [00:00<?, ?it/s]
+stats.json: 16.0kB [00:00, 36.6MB/s]                | 0.00/2.26k [00:00<?, ?B/s]
+meta/tasks.parquet: 100%|██████████████████| 2.26k/2.26k [00:00<00:00, 11.8kB/s]
+meta/episodes/chunk-000/file-000.parquet: 100%|█| 160k/160k [00:00<00:00, 841kB/
+Fetching 4 files: 100%|███████████████████████████| 4/4 [00:00<00:00, 10.32it/s]
+.gitattributes: 2.46kB [00:00, 10.5MB/s]                 | 0/10 [00:00<?, ?it/s]
+README.md: 4.35kB [00:00, 14.3MB/s]              | 1/10 [00:00<00:01,  4.57it/s]
+data/chunk-000/file-000.parquet: 100%|███████| 192k/192k [00:00<00:00, 1.48MB/s]
+videos/observation.images.side/chunk-000(…): 100%|█| 47.6M/47.6M [00:00<00:00, 6
+videos/observation.images.top/chunk-000/(…): 100%|█| 77.7M/77.7M [00:00<00:00, 8
+videos/observation.images.wrist/chunk-00(…): 100%|█| 70.6M/70.6M [00:00<00:00, 7
+Fetching 10 files: 100%|████████████████████████| 10/10 [00:01<00:00,  8.30it/s]
+INFO 2025-12-21 06:42:41 ot_train.py:202 Creating policy6M/47.6M [00:00<00:00, 6
+INFO 2025-12-21 06:42:42 ot_train.py:247 Creating optimizer and scheduler0:00, 7
+INFO 2025-12-21 06:42:42 ot_train.py:259 [1m[33mOutput dir:[0m outputs/train/discard5k
+INFO 2025-12-21 06:42:42 ot_train.py:262 cfg.steps=5000 (5K)
+INFO 2025-12-21 06:42:42 ot_train.py:263 dataset.num_frames=4906 (5K)
+INFO 2025-12-21 06:42:42 ot_train.py:264 dataset.num_episodes=25
+INFO 2025-12-21 06:42:42 ot_train.py:267 Effective batch size: 64 x 1 = 64
+INFO 2025-12-21 06:42:42 ot_train.py:268 num_learnable_params=51597190 (52M)
+INFO 2025-12-21 06:42:42 ot_train.py:269 num_total_params=51597190 (52M)
+INFO 2025-12-21 06:42:42 ot_train.py:324 Start offline training on a fixed dataset
+INFO 2025-12-21 06:50:49 ot_train.py:351 step:200 smpl:13K ep:65 epch:2.61 loss:4.964 grdn:78.813 lr:1.0e-05 updt_s:2.354 data_s:0.083
+INFO 2025-12-21 06:52:27 ot_train.py:351 step:400 smpl:26K ep:130 epch:5.22 loss:1.839 grdn:33.751 lr:1.0e-05 updt_s:0.374 data_s:0.112
+INFO 2025-12-21 06:53:59 ot_train.py:351 step:600 smpl:38K ep:196 epch:7.83 loss:1.402 grdn:30.178 lr:1.0e-05 updt_s:0.373 data_s:0.087
+INFO 2025-12-21 06:55:38 ot_train.py:351 step:800 smpl:51K ep:261 epch:10.44 loss:1.093 grdn:26.535 lr:1.0e-05 updt_s:0.375 data_s:0.119
+INFO 2025-12-21 06:57:09 ot_train.py:351 step:1K smpl:64K ep:326 epch:13.05 loss:0.854 grdn:24.105 lr:1.0e-05 updt_s:0.374 data_s:0.081
+INFO 2025-12-21 06:58:46 ot_train.py:351 step:1K smpl:77K ep:391 epch:15.65 loss:0.675 grdn:22.559 lr:1.0e-05 updt_s:0.374 data_s:0.113
+INFO 2025-12-21 07:00:25 ot_train.py:351 step:1K smpl:90K ep:457 epch:18.26 loss:0.527 grdn:20.083 lr:1.0e-05 updt_s:0.375 data_s:0.119
+INFO 2025-12-21 07:01:57 ot_train.py:351 step:2K smpl:102K ep:522 epch:20.87 loss:0.418 grdn:18.296 lr:1.0e-05 updt_s:0.377 data_s:0.081
+INFO 2025-12-21 07:03:36 ot_train.py:351 step:2K smpl:115K ep:587 epch:23.48 loss:0.339 grdn:17.465 lr:1.0e-05 updt_s:0.376 data_s:0.117
+INFO 2025-12-21 07:05:07 ot_train.py:351 step:2K smpl:128K ep:652 epch:26.09 loss:0.278 grdn:16.114 lr:1.0e-05 updt_s:0.376 data_s:0.080
+INFO 2025-12-21 07:06:45 ot_train.py:351 step:2K smpl:141K ep:717 epch:28.70 loss:0.237 grdn:15.359 lr:1.0e-05 updt_s:0.376 data_s:0.116
+INFO 2025-12-21 07:08:25 ot_train.py:351 step:2K smpl:154K ep:783 epch:31.31 loss:0.207 grdn:14.593 lr:1.0e-05 updt_s:0.375 data_s:0.122
+INFO 2025-12-21 07:09:57 ot_train.py:351 step:3K smpl:166K ep:848 epch:33.92 loss:0.183 grdn:13.675 lr:1.0e-05 updt_s:0.376 data_s:0.086
+INFO 2025-12-21 07:11:35 ot_train.py:351 step:3K smpl:179K ep:913 epch:36.53 loss:0.166 grdn:12.695 lr:1.0e-05 updt_s:0.374 data_s:0.111
+INFO 2025-12-21 07:13:07 ot_train.py:351 step:3K smpl:192K ep:978 epch:39.14 loss:0.153 grdn:13.216 lr:1.0e-05 updt_s:0.374 data_s:0.088
+INFO 2025-12-21 07:14:46 ot_train.py:351 step:3K smpl:205K ep:1K epch:41.74 loss:0.141 grdn:11.533 lr:1.0e-05 updt_s:0.374 data_s:0.120
+INFO 2025-12-21 07:16:25 ot_train.py:351 step:3K smpl:218K ep:1K epch:44.35 loss:0.133 grdn:12.034 lr:1.0e-05 updt_s:0.374 data_s:0.120
+INFO 2025-12-21 07:17:56 ot_train.py:351 step:4K smpl:230K ep:1K epch:46.96 loss:0.127 grdn:12.361 lr:1.0e-05 updt_s:0.375 data_s:0.083
+INFO 2025-12-21 07:19:34 ot_train.py:351 step:4K smpl:243K ep:1K epch:49.57 loss:0.118 grdn:10.583 lr:1.0e-05 updt_s:0.375 data_s:0.114
+INFO 2025-12-21 07:21:05 ot_train.py:351 step:4K smpl:256K ep:1K epch:52.18 loss:0.113 grdn:11.527 lr:1.0e-05 updt_s:0.375 data_s:0.079
+INFO 2025-12-21 07:22:44 ot_train.py:351 step:4K smpl:269K ep:1K epch:54.79 loss:0.110 grdn:11.394 lr:1.0e-05 updt_s:0.376 data_s:0.116
+INFO 2025-12-21 07:24:23 ot_train.py:351 step:4K smpl:282K ep:1K epch:57.40 loss:0.104 grdn:11.034 lr:1.0e-05 updt_s:0.377 data_s:0.120
+INFO 2025-12-21 07:25:55 ot_train.py:351 step:5K smpl:294K ep:2K epch:60.01 loss:0.101 grdn:10.780 lr:1.0e-05 updt_s:0.378 data_s:0.082
+INFO 2025-12-21 07:27:35 ot_train.py:351 step:5K smpl:307K ep:2K epch:62.62 loss:0.096 grdn:10.331 lr:1.0e-05 updt_s:0.376 data_s:0.122
+INFO 2025-12-21 07:29:06 ot_train.py:351 step:5K smpl:320K ep:2K epch:65.23 loss:0.095 grdn:10.580 lr:1.0e-05 updt_s:0.376 data_s:0.080
+INFO 2025-12-21 07:29:06 ot_train.py:361 Checkpoint policy after step 5000
+INFO 2025-12-21 07:29:07 ot_train.py:430 End of training
+Processing Files (1 / 1)      : 100%|██████████████|  207MB /  207MB, 86.1MB/s  
+New Data Upload               : 100%|██████████████|  206MB /  206MB, 85.8MB/s  
+  ...scard5k/model.safetensors: 100%|██████████████|  207MB /  207MB            
+INFO 2025-12-21 07:29:12 etrained.py:237 Model pushed to https://huggingface.co/KaushikDuddala/discard5k
+Processing Files (1 / 1)      : 100%|██████████████| 8.51kB / 8.51kB,  0.00B/s  
+New Data Upload               : |                  |  0.00B /  0.00B,  0.00B/s  
+  ...zer_processor.safetensors: 100%|██████████████| 8.51kB / 8.51kB
+Processing Files (1 / 1)      : 100%|██████████████| 8.51kB / 8.51kB,  0.00B/s  
+New Data Upload               : |                  |  0.00B /  0.00B,  0.00B/s  
+  ...zer_processor.safetensors: 100%|██████████████| 8.51kB / 8.51kB

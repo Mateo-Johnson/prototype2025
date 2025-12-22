@@ -43,9 +43,12 @@ Optional notes:
 ## Video Demo
 ▶️ **Full Demo Video:**  
 https://www.youtube.com/watch?v=GOwJP6qtDTw
+<<<<<<< Updated upstream
 ---
 
 ## HuggingFace Account:
 
 https://huggingface.co/KaushikDuddala
+=======
+>>>>>>> Stashed changes
 
