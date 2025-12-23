@@ -40,8 +40,7 @@ Optional notes:
 
 ---
 
-## Video Demo
-▶️ **Full Demo Video:**  
+## ▶️ Full Demo Video:
 https://www.youtube.com/watch?v=GOwJP6qtDTw
 ---
 
